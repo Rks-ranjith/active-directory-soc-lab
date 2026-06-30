@@ -1,0 +1,14 @@
+# Personal files — do not push to public GitHub
+RESUME-CONTENT.md
+*.docx
+*.txt
+Wazuh_SOC_Bootcamp*
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+.vscode/

@@ -1,0 +1,26 @@
+title: Kerberoasting via RC4 Ticket Request
+id: 4f8e0d3a-1234-4abc-8def-0123456789ab
+status: stable
+description: Detects Kerberoasting attack via RC4 encrypted TGS request
+author: YourName
+date: 2026/05/10
+references:
+    - https://attack.mitre.org/techniques/T1558/003/
+tags:
+    - attack.credential_access
+    - attack.t1558.003
+logsource:
+    product: windows
+    service: security
+detection:
+    selection:
+        EventID: 4769
+        TicketEncryptionType: '0x17'
+        ServiceName|endswith:
+            - '$'
+    filter:
+        ServiceName: 'krbtgt'
+    condition: selection and not filter
+falsepositives:
+    - Legacy applications using RC4
+level: high
