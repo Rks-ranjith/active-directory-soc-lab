@@ -47,7 +47,7 @@ When studying for SOC analyst and blue team roles, I found a gap: most learning 
 
 I wanted to **do it the hard way** — build the environment I was supposed to defend, then attack it myself, see what telemetry it generated, and write detection rules against what I actually observed. That loop — build → attack → detect → document — is what real security engineers do, and I wanted to do it before my first job.
 
-This project was built alongside my B.Tech in Cybersecurity as a practical companion to my certification study.
+This project was built as a practical companion to certification study and self-directed learning in offensive and defensive security.
 
 ---
 
@@ -421,4 +421,4 @@ After completing the lab, these were the concrete outcomes:
 
 ---
 
-*Built by Rks-ranjith · B.Tech Cybersecurity · [GitHub](https://github.com/Rks-ranjith/active-directory-soc-lab)*
+*Built by Rks-ranjith · [GitHub](https://github.com/Rks-ranjith/active-directory-soc-lab)*

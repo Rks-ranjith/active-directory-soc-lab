@@ -120,4 +120,4 @@ Custom detection logic written in **Sigma format** (vendor-neutral, portable to 
 
 ## Why This Exists
 
-Built while completing a B.Tech in Cybersecurity, as a practical companion to certification study — to develop hands-on familiarity with SIEM operations, Active Directory attack paths, and detection engineering before entering SOC analyst / blue team roles.
+Built as a practical companion to certification study and self-directed learning — to develop hands-on familiarity with SIEM operations, Active Directory attack paths, and detection engineering before entering SOC analyst / blue team roles.
